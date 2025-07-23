@@ -120,10 +120,16 @@ a:hover {
 color: crimson;
 text-decoration: none;
 border-bottom: 4px solid crimson;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start" tags="" position="700,350" size="100,100">You are in room with two doors. You can go [[left]] or [[right]].
+}
+
+.circusroom {
+	background-color: red;
+  	color: white
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start" tags="" position="700,350" size="100,100">You are in room with two doors. You can go [[left]] or [[right]].
 </tw-passagedata><tw-passagedata pid="2" name="left" tags="" position="550,475" size="100,100">You took the left door. 
 
-At the end of the hallway, there is another door. [[You enter it.|nextroom]]</tw-passagedata><tw-passagedata pid="3" name="right" tags="" position="900,475" size="100,100">You took the door on your right. The door is now closed. 
+At the end of the hallway, there is another door. [[You enter it.|nextroom]]</tw-passagedata><tw-passagedata pid="3" name="right" tags="circusroom" position="900,475" size="100,100">You took the door on your right. The door is now closed. 
 
 You are in a wide hallway. The music of the circus beckons. 
 
