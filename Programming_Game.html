@@ -116,7 +116,11 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 &lt;!-- Varibables need a $sign when declared --&gt;
 
 
-Hello traveler. What is your name. Please this [[way]].</tw-passagedata><tw-passagedata pid="2" name="way" tags="" position="375,450" size="100,100">Hmmm... $name. You must not be from around here.
+Hello traveler. What is your name. Please this [[way]].</tw-passagedata><tw-passagedata pid="2" name="way" tags="" position="375,450" size="100,100">&lt;&lt;if $name is &quot;Vane&quot;&gt;&gt; Ah the circus champion?
+
+&lt;&lt;else&gt;&gt;Hmmm... $name. You must not be from around here.
+
+&lt;&lt;/if&gt;&gt;
 
 Please pick a card. 
 
